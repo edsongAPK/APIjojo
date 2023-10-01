@@ -7,7 +7,7 @@ export function Cabecalho() {
            <Image style={estilos.logo} source={{ uri: `https://logos-world.net/wp-content/uploads/2022/01/Jojos-Bizarre-Adventure-anime-Logo-2012.png` }} 
                         resizeMode="contain"
                     />
-
+            <Text style={estilos.texto}>Edson Gustavo e Elias Teixeira</Text>
             <Text style={estilos.texto}>API JOJO</Text>
             <Text style={estilos.texto}>Personagens</Text>
         </View>
@@ -18,6 +18,11 @@ const estilos = StyleSheet.create({
     texto: {
         color: 'black',
         fontSize: 18,
+    },
+
+    equipe: {
+        color: 'black',
+        fontSize: 11,
     },
     
     logo: {
